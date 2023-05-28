@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Uclotes"
+        tools:targetApi="31">
+        <activity
+            android:name=".NewHome"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+
+            android:exported="false" />
+        <activity
+            android:name=".Pass2"
+            android:exported="false"
+            android:launchMode="singleInstance"
+            android:theme="@style/MiEstilo" />
+        <activity
+            android:name=".Pass1"
+            android:exported="false"
+            android:launchMode="singleInstance"
+            android:theme="@style/MiEstilo" />
+        <activity
+            android:name=".InicioPass1"
+            android:exported="false" />
+        <activity
+            android:name=".AyudaPagina"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

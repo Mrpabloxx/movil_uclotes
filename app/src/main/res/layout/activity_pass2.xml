@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Pass2">
+
+    <Button
+        android:id="@+id/next2"
+        android:layout_width="183dp"
+        android:layout_height="41dp"
+        android:layout_weight="1"
+        android:backgroundTint="@color/principal"
+        android:text="Empezar!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textBus2"
+        app:layout_constraintVertical_bias="0.449" />
+
+    <TextView
+        android:id="@+id/TBusca2"
+        android:layout_width="222dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="24dp"
+        android:autoSizeTextType="uniform"
+        android:text="Todo limpio"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@color/principal"
+        android:textStyle="normal|bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView6" />
+
+    <TextView
+        android:id="@+id/textBus2"
+        android:layout_width="236dp"
+        android:layout_height="82dp"
+        android:layout_marginTop="48dp"
+        android:autoSizeTextType="uniform"
+        android:text="Elige con el que mas te  sientas comodo, cotiza precio  por envio y peso.  Aprovecha las promociones  ocaciones y especiales."
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/next1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TBusca2"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="271dp"
+        android:layout_height="96dp"
+        android:layout_gravity=""
+        android:layout_weight="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.115"
+        app:srcCompat="@drawable/lavadora" />
+</androidx.constraintlayout.widget.ConstraintLayout>
